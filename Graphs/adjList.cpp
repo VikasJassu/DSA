@@ -158,7 +158,7 @@ class Graph{
         unordered_map<int, int> indegree;
         vector<int> ans;
 
-        for(auto i: adjList) {c
+        for(auto i: adjList) {
             int src = i.first;
             for(auto nbr: i.second) {
                 indegree[nbr]++;
